@@ -1,0 +1,51 @@
+.section {
+  padding-block: var(--space-800);
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-300);
+  padding: var(--space-800) var(--space-400);
+  border-radius: var(--border-radius-500);
+  background: linear-gradient(
+    135deg,
+    var(--color-background-brand-bold) 0%,
+    var(--color-blue-900) 100%
+  );
+  color: var(--color-text-inverse);
+  text-align: center;
+}
+
+.title {
+  max-width: 32rem;
+  color: var(--color-text-inverse);
+}
+
+.subtitle {
+  max-width: 40ch;
+  color: var(--color-text-inverse-subtle);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-200);
+  margin-top: var(--space-150);
+}
+
+.secondaryAction {
+  background-color: var(--color-background);
+  color: var(--color-text-brand);
+}
+
+.ghostAction {
+  border: var(--border-width-100) solid var(--color-border-inverse-subtle);
+  color: var(--color-text-inverse);
+}
+
+.ghostAction:hover {
+  background-color: rgb(255 255 255 / 10%);
+}

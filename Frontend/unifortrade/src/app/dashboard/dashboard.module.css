@@ -1,0 +1,115 @@
+.page {
+  padding-block: var(--space-500) var(--space-1000);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-300);
+  margin-bottom: var(--space-400);
+}
+
+.subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-250);
+  grid-template-columns: 1fr;
+}
+
+.card {
+  display: flex;
+  gap: var(--space-200);
+  padding: var(--space-200);
+  border-radius: var(--border-radius-300);
+  background-color: var(--elevation-surface-raised);
+  border: var(--border-width-100) solid var(--color-border);
+}
+
+.thumbnailLink {
+  flex-shrink: 0;
+}
+
+.thumbnail {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: var(--border-radius-200);
+  object-fit: cover;
+  background-color: var(--color-background-sunken);
+}
+
+.thumbnailFallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: var(--border-radius-200);
+  background-color: var(--color-background-sunken);
+  color: var(--color-text-subtlest);
+}
+
+.thumbnailFallback svg {
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 1.5;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-075);
+  min-width: 0;
+  flex: 1;
+}
+
+.titleLink {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.titleLink:hover {
+  color: var(--color-text-brand);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-150);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-100);
+  margin-top: var(--space-075);
+}
+
+.rowError {
+  color: var(--color-text-danger);
+  font-size: var(--font-body-small-size);
+}
+
+.skeleton {
+  height: 5.5rem;
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-neutral);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}

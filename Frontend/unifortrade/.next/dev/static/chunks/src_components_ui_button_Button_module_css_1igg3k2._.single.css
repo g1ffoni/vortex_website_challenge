@@ -1,0 +1,79 @@
+/* [project]/src/components/ui/button/Button.module.css [app-client] (css) */
+.Button-module__20iJPa__button {
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-100);
+  border: var(--border-width-100) solid transparent;
+  border-radius: var(--border-radius-200);
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color .15s, border-color .15s, color .15s, transform .1s;
+  display: inline-flex;
+}
+
+.Button-module__20iJPa__button:active {
+  transform: translateY(1px);
+}
+
+.Button-module__20iJPa__md {
+  padding: var(--space-150) var(--space-300);
+  font-size: var(--font-body-size);
+}
+
+.Button-module__20iJPa__sm {
+  padding: var(--space-100) var(--space-200);
+  font-size: var(--font-body-small-size);
+}
+
+.Button-module__20iJPa__primary {
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+}
+
+.Button-module__20iJPa__primary:hover {
+  background-color: var(--color-background-brand-bold-hovered);
+}
+
+.Button-module__20iJPa__primary:active {
+  background-color: var(--color-background-brand-bold-pressed);
+}
+
+.Button-module__20iJPa__secondary {
+  background-color: var(--color-background);
+  border-color: var(--color-border-bold);
+  color: var(--color-text);
+}
+
+.Button-module__20iJPa__secondary:hover {
+  background-color: var(--color-background-neutral);
+}
+
+.Button-module__20iJPa__ghost {
+  color: var(--color-text-brand);
+  background-color: #0000;
+}
+
+.Button-module__20iJPa__ghost:hover {
+  background-color: var(--color-background-brand-subtlest);
+}
+
+.Button-module__20iJPa__danger {
+  background-color: var(--color-background-danger);
+  color: var(--color-text-danger);
+}
+
+.Button-module__20iJPa__danger:hover {
+  background-color: var(--color-red-100);
+}
+
+.Button-module__20iJPa__fullWidth {
+  width: 100%;
+}
+
+.Button-module__20iJPa__button:disabled, .Button-module__20iJPa__button[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+/*# sourceMappingURL=src_components_ui_button_Button_module_css_1igg3k2._.single.css.map*/

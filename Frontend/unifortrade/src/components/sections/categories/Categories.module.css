@@ -1,0 +1,82 @@
+.section {
+  padding-block: var(--space-800);
+  background-color: var(--color-background-subtle);
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-300);
+  margin-bottom: var(--space-500);
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-200);
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-150);
+  padding: var(--space-400) var(--space-200);
+  border-radius: var(--border-radius-400);
+  background-color: var(--elevation-surface-raised);
+  border: var(--border-width-100) solid var(--color-border);
+  text-decoration: none;
+  color: var(--color-text);
+  text-align: center;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover,
+.card:focus-visible {
+  border-color: var(--color-border-brand);
+  transform: translateY(-2px);
+  color: var(--color-text);
+}
+
+.emoji {
+  display: flex;
+  color: var(--color-text-subtlest);
+}
+
+.emoji svg {
+  width: var(--font-size-900);
+  height: var(--font-size-900);
+  stroke-width: 1.5;
+}
+
+.spin svg {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.thumbnail {
+  width: var(--space-800);
+  height: var(--space-800);
+  border-radius: var(--border-radius-circle);
+  object-fit: cover;
+  background-color: var(--color-background-sunken);
+}
+
+.name {
+  font-weight: var(--font-weight-semibold);
+}

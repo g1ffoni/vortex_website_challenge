@@ -1,0 +1,55 @@
+.page {
+  padding-block: var(--space-500) var(--space-1000);
+}
+
+.header {
+  max-width: 34rem;
+  margin-bottom: var(--space-400);
+}
+
+.subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+  max-width: 34rem;
+}
+
+.row {
+  display: grid;
+  gap: var(--space-300);
+  grid-template-columns: 1fr;
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-150);
+  padding: var(--space-150) var(--space-200);
+  border-radius: var(--border-radius-200);
+  background-color: var(--color-background-subtle);
+}
+
+.checkboxRow input {
+  width: var(--space-250);
+  height: var(--space-250);
+}
+
+.preview {
+  width: 100%;
+  max-width: 12rem;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--border-radius-300);
+  object-fit: cover;
+  border: var(--border-width-100) solid var(--color-border);
+}
+
+@media (min-width: 640px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}

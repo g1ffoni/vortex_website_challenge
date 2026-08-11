@@ -1,0 +1,20 @@
+.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1em;
+  color: var(--color-amber-500);
+}
+
+.stars svg {
+  stroke-width: 1.5;
+}
+
+.sm svg {
+  width: var(--font-body-small-size);
+  height: var(--font-body-small-size);
+}
+
+.md svg {
+  width: var(--font-body-large-size);
+  height: var(--font-body-large-size);
+}

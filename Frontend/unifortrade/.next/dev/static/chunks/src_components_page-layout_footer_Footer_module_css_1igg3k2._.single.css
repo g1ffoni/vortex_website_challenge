@@ -1,0 +1,88 @@
+/* [project]/src/components/page-layout/footer/Footer.module.css [app-client] (css) */
+.Footer-module__IQccRq__footer {
+  margin-top: var(--space-1000);
+  border-top: var(--border-width-100) solid var(--color-border);
+  background-color: var(--color-background-subtle);
+}
+
+.Footer-module__IQccRq__grid {
+  gap: var(--space-500);
+  padding-block: var(--space-800) var(--space-500);
+  grid-template-columns: 1fr;
+  display: grid;
+}
+
+.Footer-module__IQccRq__brandColumn {
+  gap: var(--space-150);
+  flex-direction: column;
+  display: flex;
+}
+
+.Footer-module__IQccRq__brand {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-body-large-size);
+  letter-spacing: -.01em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.Footer-module__IQccRq__brandAccent {
+  color: var(--color-text-brand);
+}
+
+.Footer-module__IQccRq__tagline {
+  max-width: 32ch;
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+}
+
+.Footer-module__IQccRq__columnTitle {
+  margin-bottom: var(--space-150);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-subtlest);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.Footer-module__IQccRq__linkList {
+  gap: var(--space-100);
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Footer-module__IQccRq__linkList a {
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-size);
+  text-decoration: none;
+}
+
+.Footer-module__IQccRq__linkList a:hover {
+  color: var(--color-text-brand);
+}
+
+.Footer-module__IQccRq__bottom {
+  gap: var(--space-100);
+  padding-block: var(--space-300);
+  border-top: var(--border-width-100) solid var(--color-border);
+  color: var(--color-text-subtlest);
+  font-size: var(--font-body-small-size);
+  flex-direction: column;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .Footer-module__IQccRq__grid {
+    grid-template-columns: 1.5fr repeat(2, 1fr);
+  }
+
+  .Footer-module__IQccRq__bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=src_components_page-layout_footer_Footer_module_css_1igg3k2._.single.css.map*/

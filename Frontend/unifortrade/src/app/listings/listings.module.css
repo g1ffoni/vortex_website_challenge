@@ -1,0 +1,120 @@
+.page {
+  padding-block: var(--space-500) var(--space-1000);
+}
+
+.header {
+  margin-bottom: var(--space-400);
+}
+
+.subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+  margin-bottom: var(--space-400);
+}
+
+.searchRow {
+  display: flex;
+  gap: var(--space-150);
+}
+
+.searchInput {
+  flex: 1;
+}
+
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-150);
+  align-items: center;
+}
+
+.typeGroup {
+  display: flex;
+  gap: var(--space-075);
+}
+
+.typeButton {
+  padding: var(--space-075) var(--space-200);
+  border-radius: var(--border-radius-500);
+  border: var(--border-width-100) solid var(--color-border);
+  background-color: var(--color-background);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-medium);
+}
+
+.typeButtonActive {
+  border-color: var(--color-border-brand);
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+}
+
+.categorySelect {
+  max-width: 14rem;
+}
+
+.resultCount {
+  margin-bottom: var(--space-300);
+  color: var(--color-text-subtlest);
+  font-size: var(--font-body-small-size);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-250);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skeleton {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-neutral);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-300);
+  margin-top: var(--space-500);
+}
+
+.pageLabel {
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .toolbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .searchRow {
+    max-width: 22rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

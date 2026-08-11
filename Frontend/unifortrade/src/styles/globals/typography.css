@@ -1,0 +1,54 @@
+
+h1 {
+  font-size: var(--font-heading-xxlarge-size);
+  font-weight: var(--font-heading-xxlarge-weight);
+  line-height: var(--font-heading-xxlarge-line-height);
+}
+
+h2 {
+  font-size: var(--font-heading-xlarge-size);
+  font-weight: var(--font-heading-xlarge-weight);
+  line-height: var(--font-heading-xlarge-line-height);
+}
+
+h3 {
+  font-size: var(--font-heading-large-size);
+  font-weight: var(--font-heading-large-weight);
+  line-height: var(--font-heading-large-line-height);
+}
+
+h4 {
+  font-size: var(--font-heading-medium-size);
+  font-weight: var(--font-heading-medium-weight);
+  line-height: var(--font-heading-medium-line-height);
+}
+
+h5 {
+  font-size: var(--font-heading-small-size);
+  font-weight: var(--font-heading-small-weight);
+  line-height: var(--font-heading-small-line-height);
+}
+
+h6 {
+  font-size: var(--font-heading-xsmall-size);
+  font-weight: var(--font-heading-xsmall-weight);
+  line-height: var(--font-heading-xsmall-line-height);
+}
+
+small {
+  font-size: var(--font-body-small-size);
+  line-height: var(--font-body-small-line-height);
+}
+
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-body-small-size);
+}

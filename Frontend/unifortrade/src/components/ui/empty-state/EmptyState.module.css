@@ -1,0 +1,31 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-200);
+  padding: var(--space-800) var(--space-300);
+  text-align: center;
+  color: var(--color-text-subtle);
+}
+
+.icon {
+  display: flex;
+  color: var(--color-text-subtlest);
+}
+
+.icon svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  stroke-width: 1.5;
+}
+
+.title {
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-body-large-size);
+}
+
+.description {
+  max-width: 32ch;
+  color: var(--color-text-subtlest);
+}

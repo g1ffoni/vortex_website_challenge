@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/styles/globals/base.css"],"sourcesContent":["\nhtml {\n  scroll-behavior: smooth;\n  scroll-padding-top: 5rem;\n}\n\nbody {\n  background-color: var(--color-background);\n  color: var(--color-text);\n  font-family: var(--font-family-sans);\n  font-size: var(--font-body-size);\n  font-weight: var(--font-body-weight);\n  line-height: var(--font-body-line-height);\n}\n\n@media (max-width: 767px) {\n  body {\n    padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));\n  }\n}\n\n::selection {\n  background-color: var(--color-background-brand-subtlest);\n  color: var(--color-text-brand);\n}\n\na {\n  color: var(--color-link);\n  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);\n}\n\na:hover,\na:focus-visible {\n  color: var(--color-link-hovered);\n}\n\na:active {\n  color: var(--color-link-pressed);\n}\n\n:focus-visible {\n  outline: var(--border-width-200) solid var(--color-border-focused);\n  outline-offset: 2px;\n}\n\nbutton {\n  cursor: pointer;\n}\n\nbutton:disabled {\n  cursor: not-allowed;\n  opacity: 0.6;\n}\n"],"names":[],"mappings":"AACA;;;;;AAKA;;;;;;;;;AASA;EACE;;;;;AAKF;;;;;AAKA;;;;;;AAKA;;;;AAKA;;;;AAIA;;;;;AAKA;;;;AAIA"}}]
+}

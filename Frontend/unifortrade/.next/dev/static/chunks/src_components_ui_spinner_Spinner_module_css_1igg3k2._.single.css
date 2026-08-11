@@ -1,0 +1,47 @@
+/* [project]/src/components/ui/spinner/Spinner.module.css [app-client] (css) */
+.Spinner-module__WLt3Ja__spinner {
+  box-sizing: border-box;
+  border-radius: var(--border-radius-circle);
+  border: var(--border-width-200) solid currentColor;
+  opacity: .85;
+  border-top-color: #0000;
+  animation: .7s linear infinite Spinner-module__WLt3Ja__spin;
+  display: inline-block;
+}
+
+.Spinner-module__WLt3Ja__md {
+  width: var(--space-300);
+  height: var(--space-300);
+}
+
+.Spinner-module__WLt3Ja__sm {
+  width: var(--space-200);
+  height: var(--space-200);
+  border-width: var(--border-width-100);
+}
+
+.Spinner-module__WLt3Ja__visuallyHidden {
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+@keyframes Spinner-module__WLt3Ja__spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Spinner-module__WLt3Ja__spinner {
+    animation-duration: 1.4s;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_spinner_Spinner_module_css_1igg3k2._.single.css.map*/

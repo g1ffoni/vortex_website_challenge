@@ -1,0 +1,15 @@
+/* [project]/src/components/ui/container/Container.module.css [app-client] (css) */
+.Container-module__tvTt1W__container {
+  width: 100%;
+  max-width: 75rem;
+  padding-inline: var(--space-300);
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .Container-module__tvTt1W__container {
+    padding-inline: var(--space-500);
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_container_Container_module_css_1igg3k2._.single.css.map*/

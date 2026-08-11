@@ -1,0 +1,163 @@
+.page {
+  padding-block: var(--space-500) var(--space-1000);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-050);
+  margin-bottom: var(--space-300);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  text-decoration: none;
+}
+
+.back svg {
+  width: 1em;
+  height: 1em;
+}
+
+.back:hover {
+  color: var(--color-text-brand);
+}
+
+.layout {
+  display: grid;
+  gap: var(--space-500);
+  grid-template-columns: 1fr;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-150);
+}
+
+.mainImage {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-sunken);
+  object-fit: cover;
+}
+
+.mainImageFallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-sunken);
+  color: var(--color-text-subtlest);
+}
+
+.mainImageFallback svg {
+  width: 3rem;
+  height: 3rem;
+  stroke-width: 1.5;
+}
+
+.thumbRow {
+  display: flex;
+  gap: var(--space-100);
+  overflow-x: auto;
+}
+
+.thumb {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-radius: var(--border-radius-200);
+  object-fit: cover;
+  border: var(--border-width-100) solid var(--color-border);
+  cursor: pointer;
+}
+
+.thumbActive {
+  border-color: var(--color-border-brand);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+}
+
+.badges {
+  display: flex;
+  gap: var(--space-100);
+}
+
+.title {
+  margin: 0;
+}
+
+.price {
+  font-size: var(--font-heading-medium-size);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-brand);
+}
+
+.donation {
+  color: var(--color-text-accent);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-300);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+}
+
+.meta span,
+.meta a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-050);
+}
+
+.meta svg {
+  width: 1em;
+  height: 1em;
+}
+
+.description {
+  color: var(--color-text-subtle);
+  white-space: pre-wrap;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-150);
+}
+
+.contactCard {
+  padding: var(--space-250);
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-success);
+}
+
+.contactCard dt {
+  font-size: var(--font-body-small-size);
+  color: var(--color-text-subtle);
+}
+
+.contactCard dd {
+  margin: 0 0 var(--space-150);
+  font-weight: var(--font-weight-semibold);
+}
+
+.celebrate {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-050);
+}
+
+@media (min-width: 768px) {
+  .layout {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}

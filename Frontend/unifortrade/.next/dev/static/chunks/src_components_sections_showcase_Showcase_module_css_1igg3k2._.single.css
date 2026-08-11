@@ -1,0 +1,89 @@
+/* [project]/src/components/sections/showcase/Showcase.module.css [app-client] (css) */
+.Showcase-module__BMHoYG__section {
+  padding-block: var(--space-800);
+}
+
+.Showcase-module__BMHoYG__header {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-300);
+  margin-bottom: var(--space-400);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Showcase-module__BMHoYG__title {
+  margin: 0;
+}
+
+.Showcase-module__BMHoYG__subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.Showcase-module__BMHoYG__filters {
+  gap: var(--space-100);
+  margin-bottom: var(--space-400);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Showcase-module__BMHoYG__filterButton {
+  padding: var(--space-100) var(--space-200);
+  border-radius: var(--border-radius-500);
+  border: var(--border-width-100) solid var(--color-border);
+  background-color: var(--color-background);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-medium);
+}
+
+.Showcase-module__BMHoYG__filterButton:hover {
+  border-color: var(--color-border-brand);
+  color: var(--color-text-brand);
+}
+
+.Showcase-module__BMHoYG__filterButtonActive {
+  border-color: var(--color-border-brand);
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+}
+
+.Showcase-module__BMHoYG__grid {
+  gap: var(--space-250);
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+
+.Showcase-module__BMHoYG__skeleton {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-neutral);
+  animation: 1.4s ease-in-out infinite Showcase-module__BMHoYG__pulse;
+}
+
+@keyframes Showcase-module__BMHoYG__pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.Showcase-module__BMHoYG__footer {
+  margin-top: var(--space-500);
+  justify-content: center;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .Showcase-module__BMHoYG__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .Showcase-module__BMHoYG__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*# sourceMappingURL=src_components_sections_showcase_Showcase_module_css_1igg3k2._.single.css.map*/

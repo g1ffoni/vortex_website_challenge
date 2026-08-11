@@ -1,0 +1,36 @@
+.section {
+  padding-block: var(--space-600);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-300);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tile {
+  padding: var(--space-300);
+  border-radius: var(--border-radius-400);
+  background-color: var(--elevation-surface-raised);
+  border: var(--border-width-100) solid var(--color-border);
+  text-align: center;
+}
+
+.value {
+  font-size: var(--font-size-800);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-brand);
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  margin-top: var(--space-075);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

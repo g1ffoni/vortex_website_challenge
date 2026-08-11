@@ -1,0 +1,86 @@
+.section {
+  padding-block: var(--space-800);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-300);
+  margin-bottom: var(--space-400);
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: var(--space-100);
+  color: var(--color-text-subtle);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-100);
+  margin-bottom: var(--space-400);
+}
+
+.filterButton {
+  padding: var(--space-100) var(--space-200);
+  border-radius: var(--border-radius-500);
+  border: var(--border-width-100) solid var(--color-border);
+  background-color: var(--color-background);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-medium);
+}
+
+.filterButton:hover {
+  border-color: var(--color-border-brand);
+  color: var(--color-text-brand);
+}
+
+.filterButtonActive {
+  border-color: var(--color-border-brand);
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-250);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skeleton {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-neutral);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-500);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

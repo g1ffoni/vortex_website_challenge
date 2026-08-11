@@ -1,0 +1,65 @@
+.banner {
+  position: fixed;
+  left: var(--space-200);
+  right: var(--space-200);
+  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  z-index: var(--z-index-600);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-200);
+  padding: var(--space-200) var(--space-250);
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-inverse);
+  color: var(--color-text-inverse);
+  box-shadow: var(--elevation-shadow-overlay);
+  font-size: var(--font-body-small-size);
+}
+
+.message {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-100);
+}
+
+.message svg {
+  flex-shrink: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-100);
+  flex-shrink: 0;
+}
+
+.installButton {
+  padding: var(--space-075) var(--space-200);
+  border: none;
+  border-radius: var(--border-radius-200);
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-body-small-size);
+}
+
+.dismissButton {
+  display: inline-flex;
+  border: none;
+  background: none;
+  color: var(--color-text-inverse-subtle);
+  padding: var(--space-050);
+}
+
+.dismissButton svg {
+  width: var(--font-body-size);
+  height: var(--font-body-size);
+}
+
+@media (min-width: 768px) {
+  .banner {
+    left: auto;
+    bottom: var(--space-200);
+    max-width: 24rem;
+  }
+}

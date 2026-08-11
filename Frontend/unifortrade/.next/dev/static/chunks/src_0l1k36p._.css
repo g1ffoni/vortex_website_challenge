@@ -1,0 +1,236 @@
+/* [project]/src/components/ui/badge/Badge.module.css [app-client] (css) */
+.Badge-module__h3Qzbq__badge {
+  align-items: center;
+  gap: var(--space-050);
+  padding: var(--space-025) var(--space-150);
+  border-radius: var(--border-radius-500);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-200);
+  white-space: nowrap;
+  display: inline-flex;
+}
+
+.Badge-module__h3Qzbq__success {
+  background-color: var(--color-background-success);
+  color: var(--color-text-success);
+}
+
+.Badge-module__h3Qzbq__warning {
+  background-color: var(--color-background-warning);
+  color: var(--color-text-warning);
+}
+
+.Badge-module__h3Qzbq__information {
+  background-color: var(--color-background-information);
+  color: var(--color-text-information);
+}
+
+.Badge-module__h3Qzbq__accent {
+  background-color: var(--color-orange-100);
+  color: var(--color-text-accent);
+}
+
+.Badge-module__h3Qzbq__neutral {
+  background-color: var(--color-background-neutral);
+  color: var(--color-text-subtle);
+}
+
+.Badge-module__h3Qzbq__danger {
+  background-color: var(--color-background-danger);
+  color: var(--color-text-danger);
+}
+
+/* [project]/src/components/ui/alert/Alert.module.css [app-client] (css) */
+.Alert-module__f3tv9W__alert {
+  gap: var(--space-050);
+  padding: var(--space-200) var(--space-250);
+  border-radius: var(--border-radius-300);
+  font-size: var(--font-body-small-size);
+  line-height: var(--font-body-line-height);
+  flex-direction: column;
+  display: flex;
+}
+
+.Alert-module__f3tv9W__alert ul {
+  padding-left: var(--space-300);
+  margin: 0;
+}
+
+.Alert-module__f3tv9W__danger {
+  background-color: var(--color-background-danger);
+  color: var(--color-text-danger);
+}
+
+.Alert-module__f3tv9W__success {
+  background-color: var(--color-background-success);
+  color: var(--color-text-success);
+}
+
+.Alert-module__f3tv9W__info {
+  background-color: var(--color-background-information);
+  color: var(--color-text-information);
+}
+
+/* [project]/src/components/ui/empty-state/EmptyState.module.css [app-client] (css) */
+.EmptyState-module__OkL_wa__emptyState {
+  align-items: center;
+  gap: var(--space-200);
+  padding: var(--space-800) var(--space-300);
+  text-align: center;
+  color: var(--color-text-subtle);
+  flex-direction: column;
+  display: flex;
+}
+
+.EmptyState-module__OkL_wa__icon {
+  font-size: var(--font-size-1000);
+  line-height: 1;
+}
+
+.EmptyState-module__OkL_wa__title {
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-body-large-size);
+}
+
+.EmptyState-module__OkL_wa__description {
+  max-width: 32ch;
+  color: var(--color-text-subtlest);
+}
+
+/* [project]/src/app/listings/[id]/listing-detail.module.css [app-client] (css) */
+.listing-detail-module__rNYeGW__page {
+  padding-block: var(--space-500) var(--space-1000);
+}
+
+.listing-detail-module__rNYeGW__back {
+  margin-bottom: var(--space-300);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.listing-detail-module__rNYeGW__back:hover {
+  color: var(--color-text-brand);
+}
+
+.listing-detail-module__rNYeGW__layout {
+  gap: var(--space-500);
+  grid-template-columns: 1fr;
+  display: grid;
+}
+
+.listing-detail-module__rNYeGW__gallery {
+  gap: var(--space-150);
+  flex-direction: column;
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__mainImage {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-sunken);
+  object-fit: cover;
+  width: 100%;
+}
+
+.listing-detail-module__rNYeGW__mainImageFallback {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-sunken);
+  width: 100%;
+  font-size: var(--font-size-1000);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__thumbRow {
+  gap: var(--space-100);
+  display: flex;
+  overflow-x: auto;
+}
+
+.listing-detail-module__rNYeGW__thumb {
+  border-radius: var(--border-radius-200);
+  object-fit: cover;
+  border: var(--border-width-100) solid var(--color-border);
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.listing-detail-module__rNYeGW__thumbActive {
+  border-color: var(--color-border-brand);
+}
+
+.listing-detail-module__rNYeGW__info {
+  gap: var(--space-200);
+  flex-direction: column;
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__badges {
+  gap: var(--space-100);
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__title {
+  margin: 0;
+}
+
+.listing-detail-module__rNYeGW__price {
+  font-size: var(--font-heading-medium-size);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-brand);
+}
+
+.listing-detail-module__rNYeGW__donation {
+  color: var(--color-text-accent);
+}
+
+.listing-detail-module__rNYeGW__meta {
+  gap: var(--space-300);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__description {
+  color: var(--color-text-subtle);
+  white-space: pre-wrap;
+}
+
+.listing-detail-module__rNYeGW__actions {
+  gap: var(--space-150);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.listing-detail-module__rNYeGW__contactCard {
+  padding: var(--space-250);
+  border-radius: var(--border-radius-300);
+  background-color: var(--color-background-success);
+}
+
+.listing-detail-module__rNYeGW__contactCard dt {
+  font-size: var(--font-body-small-size);
+  color: var(--color-text-subtle);
+}
+
+.listing-detail-module__rNYeGW__contactCard dd {
+  margin: 0 0 var(--space-150);
+  font-weight: var(--font-weight-semibold);
+}
+
+@media (min-width: 768px) {
+  .listing-detail-module__rNYeGW__layout {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_0l1k36p._.css.map*/

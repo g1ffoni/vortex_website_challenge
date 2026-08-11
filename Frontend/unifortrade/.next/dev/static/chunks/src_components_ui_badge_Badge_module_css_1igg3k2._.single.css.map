@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/ui/badge/Badge.module.css"],"sourcesContent":[".badge {\n  display: inline-flex;\n  align-items: center;\n  gap: var(--space-050);\n  padding: var(--space-025) var(--space-150);\n  border-radius: var(--border-radius-500);\n  font-size: var(--font-body-small-size);\n  font-weight: var(--font-weight-semibold);\n  line-height: var(--line-height-200);\n  white-space: nowrap;\n}\n\n.success {\n  background-color: var(--color-background-success);\n  color: var(--color-text-success);\n}\n\n.warning {\n  background-color: var(--color-background-warning);\n  color: var(--color-text-warning);\n}\n\n.information {\n  background-color: var(--color-background-information);\n  color: var(--color-text-information);\n}\n\n.accent {\n  background-color: var(--color-orange-100);\n  color: var(--color-text-accent);\n}\n\n.neutral {\n  background-color: var(--color-background-neutral);\n  color: var(--color-text-subtle);\n}\n\n.danger {\n  background-color: var(--color-background-danger);\n  color: var(--color-text-danger);\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAYA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;AAKA"}}]
+}

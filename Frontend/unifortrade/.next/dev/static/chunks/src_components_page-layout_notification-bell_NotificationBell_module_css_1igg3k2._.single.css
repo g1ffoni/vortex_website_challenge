@@ -1,0 +1,156 @@
+/* [project]/src/components/page-layout/notification-bell/NotificationBell.module.css [app-client] (css) */
+.NotificationBell-module__KEYpYG__wrapper {
+  position: relative;
+}
+
+.NotificationBell-module__KEYpYG__bellButton {
+  width: var(--space-500);
+  height: var(--space-500);
+  border: var(--border-width-100) solid var(--color-border);
+  border-radius: var(--border-radius-circle);
+  background-color: var(--color-background);
+  font-size: var(--font-body-large-size);
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.NotificationBell-module__KEYpYG__bellButton:hover {
+  background-color: var(--color-background-neutral);
+}
+
+.NotificationBell-module__KEYpYG__badge {
+  border-radius: var(--border-radius-500);
+  background-color: var(--color-background-danger-bold);
+  min-width: 1.1rem;
+  height: 1.1rem;
+  color: var(--color-text-inverse);
+  font-size: .65rem;
+  font-weight: var(--font-weight-bold);
+  justify-content: center;
+  align-items: center;
+  padding-inline: .2rem;
+  line-height: 1;
+  display: inline-flex;
+  position: absolute;
+  top: -.25rem;
+  right: -.25rem;
+}
+
+.NotificationBell-module__KEYpYG__panel {
+  top: calc(100% + var(--space-100));
+  z-index: var(--z-index-200);
+  width: 20rem;
+  max-width: calc(100vw - var(--space-400));
+  border-radius: var(--border-radius-400);
+  background-color: var(--elevation-surface-overlay);
+  border: var(--border-width-100) solid var(--color-border);
+  max-height: 24rem;
+  box-shadow: var(--elevation-shadow-overlay);
+  position: absolute;
+  right: 0;
+  overflow-y: auto;
+}
+
+.NotificationBell-module__KEYpYG__panelHeader {
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-150);
+  padding: var(--space-200) var(--space-250);
+  border-bottom: var(--border-width-100) solid var(--color-border);
+  background-color: var(--elevation-surface-overlay);
+  font-weight: var(--font-weight-semibold);
+  display: flex;
+}
+
+.NotificationBell-module__KEYpYG__markAllButton {
+  color: var(--color-link);
+  font-size: var(--font-body-small-size);
+  font-weight: var(--font-weight-medium);
+  background: none;
+  border: none;
+}
+
+.NotificationBell-module__KEYpYG__markAllButton:hover {
+  color: var(--color-link-hovered);
+}
+
+.NotificationBell-module__KEYpYG__empty {
+  padding: var(--space-400) var(--space-250);
+  text-align: center;
+  color: var(--color-text-subtlest);
+  font-size: var(--font-body-small-size);
+}
+
+.NotificationBell-module__KEYpYG__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.NotificationBell-module__KEYpYG__item {
+  align-items: flex-start;
+  gap: var(--space-150);
+  padding: var(--space-200) var(--space-250);
+  border-bottom: var(--border-width-100) solid var(--color-border);
+  display: flex;
+}
+
+.NotificationBell-module__KEYpYG__item:last-child {
+  border-bottom: none;
+}
+
+.NotificationBell-module__KEYpYG__itemContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.NotificationBell-module__KEYpYG__itemLink {
+  min-width: 0;
+  color: inherit;
+  border-radius: var(--border-radius-200);
+  margin: calc(var(--space-100) * -1);
+  padding: var(--space-100);
+  flex: 1;
+  text-decoration: none;
+  display: block;
+}
+
+.NotificationBell-module__KEYpYG__itemLink:hover {
+  background-color: var(--color-background-neutral);
+}
+
+.NotificationBell-module__KEYpYG__itemMessage {
+  font-size: var(--font-body-small-size);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.NotificationBell-module__KEYpYG__itemDate {
+  margin-top: var(--space-050);
+  color: var(--color-text-subtlest);
+  font-size: var(--font-size-075);
+  display: block;
+}
+
+.NotificationBell-module__KEYpYG__dismissButton {
+  width: var(--space-400);
+  height: var(--space-400);
+  border: var(--border-width-100) solid var(--color-border);
+  border-radius: var(--border-radius-circle);
+  background-color: var(--color-background);
+  color: var(--color-text-subtle);
+  font-size: var(--font-body-small-size);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.NotificationBell-module__KEYpYG__dismissButton:hover {
+  border-color: var(--color-border-brand);
+  color: var(--color-text-brand);
+}
+
+/*# sourceMappingURL=src_components_page-layout_notification-bell_NotificationBell_module_css_1igg3k2._.single.css.map*/

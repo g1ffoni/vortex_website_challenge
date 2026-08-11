@@ -1,0 +1,53 @@
+/* [project]/src/components/pwa/InstallPrompt.module.css [app-client] (css) */
+.InstallPrompt-module__rMAAZG__banner {
+  left: var(--space-200);
+  right: var(--space-200);
+  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  z-index: var(--z-index-600);
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-200);
+  padding: var(--space-200) var(--space-250);
+  border-radius: var(--border-radius-400);
+  background-color: var(--color-background-inverse);
+  color: var(--color-text-inverse);
+  box-shadow: var(--elevation-shadow-overlay);
+  font-size: var(--font-body-small-size);
+  display: flex;
+  position: fixed;
+}
+
+.InstallPrompt-module__rMAAZG__actions {
+  align-items: center;
+  gap: var(--space-100);
+  flex-shrink: 0;
+  display: flex;
+}
+
+.InstallPrompt-module__rMAAZG__installButton {
+  padding: var(--space-075) var(--space-200);
+  border-radius: var(--border-radius-200);
+  background-color: var(--color-background-brand-bold);
+  color: var(--color-text-inverse);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-body-small-size);
+  border: none;
+}
+
+.InstallPrompt-module__rMAAZG__dismissButton {
+  color: var(--color-text-inverse-subtle);
+  font-size: var(--font-body-size);
+  padding: var(--space-050);
+  background: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .InstallPrompt-module__rMAAZG__banner {
+    left: auto;
+    bottom: var(--space-200);
+    max-width: 24rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_pwa_InstallPrompt_module_css_1igg3k2._.single.css.map*/
