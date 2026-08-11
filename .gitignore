@@ -29,19 +29,16 @@ replay_pid*
 
 ### NextJS ###
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage/
 
 # next.js
-/.next/
-/out/
-
-# production
-/build
+.next/
+out/
 
 # misc
 .DS_Store
@@ -57,7 +54,7 @@ yarn-error.log*
 .env*.local
 
 # vercel
-.vercel
+.vercel/
 
 # typescript
 *.tsbuildinfo
@@ -85,6 +82,10 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+# Eclipse Buildship
+.settings/
+.factorypath
+bin/
 
 ### Gradle Patch ###
 # Java heap dump
